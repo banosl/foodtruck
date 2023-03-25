@@ -7,6 +7,4 @@ class EventSerializer
               :end_time, 
               :description
 
-
-
 end
