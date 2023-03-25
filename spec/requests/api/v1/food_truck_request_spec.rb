@@ -2,11 +2,12 @@ require 'rails_helper'
 
 RSpec.describe 'food truck API endpoints' do
   before(:all) do
+    FoodTruck.delete_all
     create_list(:food_truck, 5)
   end
 
   it 'can return all food_trucks in the database' do
-    get 'api/v1/food_trucks'
+    get api_v1_food_trucks_path
 
     expect(response).to be_successful
 
