@@ -17,12 +17,16 @@ RSpec.describe 'food truck API endpoints' do
     expect(trucks).to have_key(:data)
     expect(trucks[:data]).to be_an(Array)
     expect(trucks[:data].count).to eq(5)
-
+    
     trucks[:data].each do |truck|
       expect(truck[:attributes]).to have_key(:name)
+      expect(truck[:attributes][:name]).to be_a String
       expect(truck[:attributes]).to have_key(:cuisine_type)
+      expect(truck[:attributes][:cuisine_type]).to be_a String
       expect(truck[:attributes]).to have_key(:web_link)
+      expect(truck[:attributes][:web_link]).to be_a String
       expect(truck[:attributes]).to have_key(:image_link)
+      expect(truck[:attributes][:image_link]).to be_a String
     end
   end
 
@@ -33,7 +37,7 @@ RSpec.describe 'food truck API endpoints' do
     expect(response).to be_successful
 
     truck_data = JSON.parse(response.body, symbolize_names: true)
-
+require 'pry'; binding.pry
     expect(truck_data).to have_key(:data)
     expect(truck_data[:data][:id]).to eq(truck.id.to_s)
     expect(truck_data[:data][:type]).to eq("food_truck")
