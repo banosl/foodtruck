@@ -9,4 +9,14 @@ class Api::V1::FoodTrucksController < ApplicationController
     render json: FoodTruckSerializer.new(truck)
   end
 
+  def create
+    truck = FoodTruck.create(new_truck_params)
+    render json: FoodTruckSerializer.new(truck)
+  end
+
+  private
+
+  def new_truck_params
+    params.permit(:name, :cuisine_type, :web_link, :image_link)
+  end
 end
