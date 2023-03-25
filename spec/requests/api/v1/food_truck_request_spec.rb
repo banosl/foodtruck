@@ -78,7 +78,7 @@ RSpec.describe 'food truck API endpoints' do
   end
 
   it 'can update a trucks attributes via a patch request' do
-    old_truck = Truck.last
+    old_truck = FoodTruck.last
     updated_info = {  name: "I like this truck a lot",
                       cuisine_type: "our food is better than yours",
                       web_link: "www.yumyumtruck.com",
@@ -88,7 +88,7 @@ RSpec.describe 'food truck API endpoints' do
 
     expect(response).to be_successful
 
-    updated_truck = Truck.last
+    updated_truck = FoodTruck.find(old_truck.id)
     expect(updated_truck.name).to eq("I like this truck a lot")
     expect(updated_truck.name).to_not eq(old_truck.name)
     expect(updated_truck.cuisine_type).to eq("our food is better than yours")
