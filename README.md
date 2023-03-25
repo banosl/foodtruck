@@ -11,8 +11,9 @@
 <br />
 <div align="center">
   <a href="https://github.com/Dude-Where-s-the-FoodTruck/be-dude-wheres-my-foodtruck">
-  </a>
   <h3 align="center">Dude Where's the Food Truck</h3>
+  </a>
+  
 
 </div>
 
