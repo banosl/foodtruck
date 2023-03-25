@@ -291,8 +291,8 @@ Root directory: 'http://localhost:3000/api/v1'
 * [Choose an Open Source License](https://choosealicense.com)
 * ["The Best README Template" by Github User othneil](https://github.com/othneildrew/Best-README-Template)
 * APIs used:
-  - [Google Places API]()
-  - [Yelp Fusion API]()
+  - [Google Places API](https://developers.google.com/maps/documentation/places/web-service/overview)
+  - [Yelp Fusion API](https://docs.developer.yelp.com/docs/fusion-intro)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
