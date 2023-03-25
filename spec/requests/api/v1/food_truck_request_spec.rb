@@ -58,4 +58,22 @@ RSpec.describe 'food truck API endpoints' do
       expect(event).to have_key(:updated_at)
     end
   end
+
+  it 'can create a new food truck' do
+    truck_params = {  name: "This is my new food truck",
+                      cuisine_type: "Delicious food!",
+                      web_link: "www.yumyumtruck.com",
+                      image_link: "www.yumyumtruck.com/cool_photo.jpg"}
+
+    post api_v1_food_trucks_path, params: truck_params
+
+    expect(response).to be_successful
+
+    new_truck = FoodTruck.last
+
+    expect(new_truck.name).to eq("This is my new food truck")
+    expect(new_truck.cuisine_type).to eq("Delicious food!")
+    expect(new_truck.web_link).to eq("www.yumyumtruck.com")
+    expect(new_truck.image_link).to eq("www.yumyumtruck.com/cool_photo.jpg")
+  end
 end
