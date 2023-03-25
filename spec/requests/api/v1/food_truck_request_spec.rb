@@ -37,7 +37,7 @@ RSpec.describe 'food truck API endpoints' do
     expect(response).to be_successful
 
     truck_data = JSON.parse(response.body, symbolize_names: true)
-require 'pry'; binding.pry
+
     expect(truck_data).to have_key(:data)
     expect(truck_data[:data][:id]).to eq(truck.id.to_s)
     expect(truck_data[:data][:type]).to eq("food_truck")
