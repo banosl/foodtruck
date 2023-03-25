@@ -107,10 +107,144 @@ This repo is the back end for such a website. It exposes custom endpoints for cr
 
 ### Endpoints
 
+#### Status Codes
+
+| Code    | Status    | Description   |
+| :---    | :---      | :---          |
+| 200     |    OK     |               |
+| 404     | Not Found |               |
+| 500     |           |               |
+|         |           |               |
+
 - Root directory: 'http://localhost:3000/api/v1'
 
-- GET 
+- `GET /food_trucks`
+  - Params:
+  - Successful response:
+    ```
+    {
+      "data": [
+         {"id": integer,
+         "attributes": {
+            "name": string,
+            "cuisine_type": string,
+            "web_link": string,
+            "image_link": string
+          }
+         }
+       ]
+    }
+    ```
+- `GET /food_trucks/:id`
+  - Params:
+  - Successful response:
+    ```
+    {
+     "data": {
+        "id": integer,
+        "attributes": {
+          "name": string,
+          "cuisine_type": string,
+          "web_link": string,
+          "image_link": string
+         },
+        "relationships": [
+          {
+            "type": event,
+            "id": integer,
+            "attributes": {
+              "event_date": string,
+              "latitude": integer,
+              "longitude": integer,
+              "start_time": string,
+              "end_time": string,
+              "description": text
+            },
+          }
+        ]
+      }
+    }
 
+    ```
+  - `POST food_trucks`
+    - Params:
+    - Body:
+    - Successful response:
+      ```
+      {
+        "data": [
+           {"id": integer,
+           "attributes": {
+              "name": string,
+              "cuisine_type": string,
+              "web_link": string,
+              "image_link": string
+            }
+           }
+         ]
+      }
+      ```
+  - `PATCH food_trucks/:id`
+    - Params:
+    - Body:
+    - Successful response:
+      ```
+      {
+        "data": [
+           {"id": integer,
+           "attributes": {
+              "name": string,
+              "cuisine_type": string,
+              "web_link": string,
+              "image_link": string
+            }
+           }
+         ]
+      }
+      ```
+  - `POST food_trucks/:id/events`
+    - Params:
+    - Body:
+    - Successful response:
+      ```
+      {
+        "data": {
+          "id": integer,
+          "attributes": {
+            "event_date": string,
+            "latitude": integer,
+            "longitude": integer,
+            "start_time": string,
+            "end_time": string,
+            "description": text,
+            "city": string
+          },
+          "relationships": foodtruck_id
+        }
+      }
+      ```
+
+  - `PATCH /food_trucks/:id/events/:id`
+    - Params:
+    - Body:
+    - Successful response:
+      ```
+      {
+        "data": {
+          "id": integer,
+          "attributes": {
+            "event_date": string,
+            "latitude": integer,
+            "longitude": integer,
+            "start_time": string,
+            "end_time": string,
+            "description": text,
+            "city": string
+          },
+          "relationships": foodtruck_id
+        }
+      }
+      ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
