@@ -76,4 +76,26 @@ RSpec.describe 'food truck API endpoints' do
     expect(new_truck.web_link).to eq("www.yumyumtruck.com")
     expect(new_truck.image_link).to eq("www.yumyumtruck.com/cool_photo.jpg")
   end
+
+  it 'can update a trucks attributes via a patch request' do
+    old_truck = Truck.last
+    updated_info = {  name: "I like this truck a lot",
+                      cuisine_type: "our food is better than yours",
+                      web_link: "www.yumyumtruck.com",
+                      image_link: "www.yumyumtruck.com/cool_photo.jpg"}
+
+    patch api_v1_food_truck_path(old_truck.id), params: updated_info
+
+    expect(response).to be_successful
+
+    updated_truck = Truck.last
+    expect(updated_truck.name).to eq("I like this truck a lot")
+    expect(updated_truck.name).to_not eq(old_truck.name)
+    expect(updated_truck.cuisine_type).to eq("our food is better than yours")
+    expect(updated_truck.cuisine_type).to_not eq(old_truck.cuisine_type)
+    expect(updated_truck.web_link).to eq("www.yumyumtruck.com")
+    expect(updated_truck.web_link).to_not eq(old_truck.web_link)
+    expect(updated_truck.image_link).to eq("www.yumyumtruck.com/cool_photo.jpg")
+    expect(updated_truck.image_link).to_not eq(old_truck.image_link)
+  end
 end
