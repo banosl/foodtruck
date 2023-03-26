@@ -1,14 +1,15 @@
 require 'rails_helper'
 
 RSpec.describe FoodtruckFacade do
-  describe "self.get_coordinates" do
-    it "it returns the coordinates of a user provided place" do
-      place = "Denver"
+  describe "self.get_place_search_details" do
+    it "it returns a place with details of the search query" do
+      query = "Denver"
 
-      result = FoodtruckFacade.get_coordinates(place)
+      place = FoodtruckFacade.get_place_search_details(query)
 
-      binding.pry
-      # expect(coordinates).to eq
+      expect(place.name).to eq("Denver")
+      expect(place.longitude).to eq(-104.990251)
+      expect(place.latitude).to eq(39.7392358)
     end
   end
 
