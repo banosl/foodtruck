@@ -1,5 +1,9 @@
-# Dude, Where's My FoodTruck?
-
+<!-- PROJECT LOGO -->
+<div align="center">
+  <p align="center">
+    <img src="https://github.com/bflanagan138/image_repo/blob/main/logo%20small%20transparency.png?raw=true" alt="Profile" width="1280" height="640">
+  </p>
+</div>  
 <a name="readme-top"></a>
 
 <!-- PROJECT SHIELDS -->
@@ -256,17 +260,17 @@ Root directory: 'http://localhost:3000/api/v1'
   <p align="center">
     <!-- Angie -->
     <img src="https://avatars.githubusercontent.com/u/106895319?s=96&v=4" alt="Profile" width="80" height="80"><br>
-      Angie Staffieri
+      Angie Staffieri<br>
       <a href="https://github.com/arstaffieri">Github: arstaffieri</a><br>
       <a href="https://www.linkedin.com/in/angie-staffieri/">LinkedIn</a><br>
     <!-- John -->
     <img src="https://avatars.githubusercontent.com/u/113194002?s=96&v=4" alt="Profile" width="80" height="80"><br>
-      John Ammon
+      John Ammon<br>
       <a href="https://github.com/Mortis78">Github: Mortis78</a><br>
       <a href="https://www.linkedin.com/in/johnathon-ammon-turing-01a86919a/">LinkedIn</a><br>
     <!-- Jordan -->
     <img src="https://avatars.githubusercontent.com/u/107894408?s=96&v=4" alt="Profile" width="80" height="80"><br>
-      Jordan Smith
+      Jordan Smith<br>
        <a href="https://github.com/jaysmith2022">Github: jaysmith2022</a><br>
       <a href="https://www.linkedin.com/in/jordan-smith-331a0280/">LinkedIn</a><br>
   </p>
@@ -277,19 +281,19 @@ Root directory: 'http://localhost:3000/api/v1'
   <p align="center">
 <!-- Brady -->
   <img src="https://avatars.githubusercontent.com/u/108315713?v=4" alt="Profile" width="80" height="80"><br>
-    Brady Rohrig
+    Brady Rohrig<br>
     <a href="https://github.com/BRohrig">Github: BRohrig</a><br>
     <a href="https://www.linkedin.com/in/bradyrohrig/">LinkedIn</a><br>
 
 <!-- Bryan -->
   <img src="https://avatars.githubusercontent.com/u/109649285?s=96&v=4" alt="Profile" width="80" height="80"><br>
-    Bryan Flanagan
+    Bryan Flanagan<br>
     <a href="https://github.com/bflanagan138">Github: bflanagan138</a><br>
     <a href="https://www.linkedin.com/in/jordan-smith-331a0280/">LinkedIn</a><br>
 
 <!-- Leo -->
   <img src="https://avatars.githubusercontent.com/u/111591731?v=4" alt="Profile" width="80" height="80"><br>
-    Leo Banos Garcia
+    Leo Banos Garcia<br>
     <a href="https://github.com/banosl">Github: banosl</a>
     <a href="https://www.linkedin.com/in/leo-banos-garcia/">LinkedIn</a><br>
 
@@ -301,13 +305,13 @@ Root directory: 'http://localhost:3000/api/v1'
   <p align="center">
 <!-- Brian -->
   <img src="https://avatars.githubusercontent.com/u/8962411?v=4" alt="Profile" width="80" height="80"><br>
-    Brian Zanti
+    Brian Zanti<br>
     <a href="https://github.com/brianzanti">Github: brianzanti</a><br>
     <a href="https://www.linkedin.com/in/brianzanti/">LinkedIn</a><br>
 
 <!-- Taylor -->
   <img src="https://media.licdn.com/dms/image/C4E03AQFHaHNNYFW_ZQ/profile-displayphoto-shrink_400_400/0/1593050161041?e=1685577600&v=beta&t=5VbVgzqev-QMUqAmcqdSsAv5Rtj8DOzdOa2wLwjNpk0" alt="Profile" width="80" height="80"><br>
-    Taylor Pridgen
+    Taylor Pridgen<br>
     <a href="https://www.linkedin.com/in/taylor-pridgen-a3aa7918/">LinkedIn</a><br>
 
   
