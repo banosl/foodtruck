@@ -258,32 +258,61 @@ Root directory: 'http://localhost:3000/api/v1'
     <img src="https://avatars.githubusercontent.com/u/106895319?s=96&v=4" alt="Profile" width="80" height="80"><br>
       Angie Staffieri
       <a href="https://github.com/arstaffieri">Github: arstaffieri</a><br>
+      <a href="https://www.linkedin.com/in/angie-staffieri/">LinkedIn</a><br>
     <!-- John -->
     <img src="https://avatars.githubusercontent.com/u/113194002?s=96&v=4" alt="Profile" width="80" height="80"><br>
       John Ammon
       <a href="https://github.com/Mortis78">Github: Mortis78</a><br>
+      <a href="https://www.linkedin.com/in/johnathon-ammon-turing-01a86919a/">LinkedIn</a><br>
     <!-- Jordan -->
     <img src="https://avatars.githubusercontent.com/u/107894408?s=96&v=4" alt="Profile" width="80" height="80"><br>
       Jordan Smith
-       <a href="https://github.com/jaysmith2022">Github: jaysmith2022</a>
+       <a href="https://github.com/jaysmith2022">Github: jaysmith2022</a><br>
+      <a href="https://www.linkedin.com/in/jordan-smith-331a0280/">LinkedIn</a><br>
+  </p>
 </div>
 
 #### Back End
+  <div align="center">
   <p align="center">
 <!-- Brady -->
   <img src="https://avatars.githubusercontent.com/u/108315713?v=4" alt="Profile" width="80" height="80"><br>
     Brady Rohrig
     <a href="https://github.com/BRohrig">Github: BRohrig</a><br>
+    <a href="https://www.linkedin.com/in/bradyrohrig/">LinkedIn</a><br>
+
 <!-- Bryan -->
   <img src="https://avatars.githubusercontent.com/u/109649285?s=96&v=4" alt="Profile" width="80" height="80"><br>
     Bryan Flanagan
     <a href="https://github.com/bflanagan138">Github: bflanagan138</a><br>
+    <a href="https://www.linkedin.com/in/jordan-smith-331a0280/">LinkedIn</a><br>
+
 <!-- Leo -->
   <img src="https://avatars.githubusercontent.com/u/111591731?v=4" alt="Profile" width="80" height="80"><br>
     Leo Banos Garcia
     <a href="https://github.com/banosl">Github: banosl</a>
-  </p>
+    <a href="https://www.linkedin.com/in/leo-banos-garcia/">LinkedIn</a><br>
 
+  </p>
+</div>
+
+  #### Project Management & Mentorship
+<div align="center">
+  <p align="center">
+<!-- Brian -->
+  <img src="https://avatars.githubusercontent.com/u/8962411?v=4" alt="Profile" width="80" height="80"><br>
+    Brian Zanti
+    <a href="https://github.com/brianzanti">Github: brianzanti</a><br>
+    <a href="https://www.linkedin.com/in/brianzanti/">LinkedIn</a><br>
+
+<!-- Taylor -->
+  <img src="https://media.licdn.com/dms/image/C4E03AQFHaHNNYFW_ZQ/profile-displayphoto-shrink_400_400/0/1593050161041?e=1685577600&v=beta&t=5VbVgzqev-QMUqAmcqdSsAv5Rtj8DOzdOa2wLwjNpk0" alt="Profile" width="80" height="80"><br>
+    Taylor Pridgen
+    <a href="https://www.linkedin.com/in/taylor-pridgen-a3aa7918/">LinkedIn</a><br>
+
+  
+  </p>
+</div>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
