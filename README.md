@@ -267,7 +267,7 @@ Root directory: 'http://localhost:3000/api/v1'
     <!-- Jordan -->
     <img src="https://avatars.githubusercontent.com/u/107894408?s=96&v=4" alt="Profile" width="80" height="80"><br>
       Jordan Smith
-       <a href="https://github.com/jaysmith2022">Github: jaysmith2022</a>
+       <a href="https://github.com/jaysmith2022">Github: jaysmith2022</a><br>
       <a href="https://www.linkedin.com/in/jordan-smith-331a0280/">LinkedIn</a><br>
   </p>
 </div>
