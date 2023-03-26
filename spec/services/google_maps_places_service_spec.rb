@@ -6,7 +6,7 @@ RSpec.describe GoogleMapsPlacesService do
       query = "Denver"
       response = GoogleMapsPlacesService.find_place(query)
 
-      expect(response).to be(successful)
+      expect(response).to be_successful
 
       binding.pry
     end
