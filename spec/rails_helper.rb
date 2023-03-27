@@ -2,6 +2,16 @@
 require 'spec_helper'
 require 'simplecov'
 SimpleCov.start
+
+require 'vcr'
+VCR.configure do |c|
+  c.cassette_library_dir = 'spec/vcr'
+  c.filter_sensitive_data('<google_api_key>') { ENV['google_api_key'] }
+  c.filter_sensitive_data('<yelp_api>') { ENV['yelp_api'] }
+  c.hook_into :webmock
+  c.configure_rspec_metadata!
+end
+
 ENV['RAILS_ENV'] ||= 'test'
 require_relative '../config/environment'
 # Prevent database truncation if the environment is production

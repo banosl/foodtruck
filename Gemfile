@@ -37,6 +37,7 @@ gem 'faraday'
 group :test do
   gem 'shoulda-matchers'
   gem 'webmock'
+  gem 'vcr'
 end
 
 group :development, :test do
