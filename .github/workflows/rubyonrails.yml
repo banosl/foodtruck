@@ -27,6 +27,8 @@ jobs:
       RAILS_ENV: test
       DATABASE_URL: "postgres://postgres:password@localhost:5432/Food_Truck_BE_Test"
     steps:
+      yelp_api: ${{ secrets.yelp_api }}
+      google_api_key: ${{ secrets.google_api_key }}
       - name: Checkout code
         uses: actions/checkout@v3
       # Add or replace dependency steps here
