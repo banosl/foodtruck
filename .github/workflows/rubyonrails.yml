@@ -22,7 +22,7 @@ jobs:
           POSTGRES_DB: Food_Truck_BE_Test
           POSTGRES_USER: postgres
 
-          POSTGRES_PASSWORD: ENV['password']
+          POSTGRES_PASSWORD: password
     env:
       RAILS_ENV: test
       DATABASE_URL: "postgres://postgres:password@localhost:5432/Food_Truck_BE_Test"
