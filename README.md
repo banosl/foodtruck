@@ -104,7 +104,11 @@ This repo is the back end for such a website. It exposes custom endpoints for cr
 
 ## Schema
 
-
+<div align="center">
+  <p align="center">
+    <img src="https://github.com/bflanagan138/image_repo/blob/main/Schema.png?raw=true" alt="Profile" width="1280" height="640">
+  </p>
+</div> 
 
 ## Usage
 
