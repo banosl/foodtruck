@@ -1,6 +1,9 @@
 require 'rails_helper'
 
 RSpec.describe YelpService do
+  before :each do
+    load_stubs
+  end
   describe '#get_food_trucks' do
     it 'returns a json of food trucks within a given radius from the supplied coordinates' do
       latitude = 39.7392358

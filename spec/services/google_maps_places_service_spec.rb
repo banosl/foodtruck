@@ -1,6 +1,9 @@
 require 'rails_helper'
 
 RSpec.describe GoogleMapsPlacesService do
+  before :each do
+    load_stubs
+  end
   describe "#find_place" do
     it "returns a places with its coordinates from a text query" do
       query = "Denver"

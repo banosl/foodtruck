@@ -1,6 +1,9 @@
 require 'rails_helper'
 
 RSpec.describe FoodtruckFacade do
+  before :each do
+    load_stubs
+  end
   describe "self.get_place_search_details" do
     it "it returns a place with details of the search query" do
       query = "Denver"
