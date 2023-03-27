@@ -51,13 +51,21 @@ RSpec.describe 'food truck API endpoints' do
     expect(truck_data[:data][:attributes][:events].count).to eq(3)
     truck_data[:data][:attributes][:events].each do |event|
       expect(event).to have_key(:id)
+      expect(event[:id]).to be_a Integer
       expect(event).to have_key(:food_truck_id)
+      expect(event[:food_truck_id]).to be_a Integer
       expect(event).to have_key(:event_date)
+      expect(event[:event_date]).to be_a String
       expect(event).to have_key(:latitude)
+      expect(event[:latitude]).to be_a Float
       expect(event).to have_key(:longitude)
+      expect(event[:longitude]).to be_a Float
       expect(event).to have_key(:start_time)
+      expect(event[:start_time]).to be_a String
       expect(event).to have_key(:end_time)
+      expect(event[:end_time]).to be_a String
       expect(event).to have_key(:description)
+      expect(event[:description]).to be_a String
       expect(event).to have_key(:created_at)
       expect(event).to have_key(:updated_at)
     end
