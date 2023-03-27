@@ -10,7 +10,7 @@ RSpec.describe YelpService do
       longitude = -104.990251
 
       response = YelpService.get_food_trucks(latitude, longitude)
-      
+      # require 'pry'; binding.pry
       expect(response).to have_key(:businesses)
 
       response[:businesses].each do |business|

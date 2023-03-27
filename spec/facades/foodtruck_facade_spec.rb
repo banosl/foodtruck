@@ -9,19 +9,19 @@ RSpec.describe FoodtruckFacade do
       query = "Denver"
 
       place = FoodtruckFacade.get_place_search_details(query)
-
       expect(place.name).to eq("Denver")
+      # expect(place.address).to eq("Denver, CO, USA")
       expect(place.longitude).to eq(-104.990251)
       expect(place.latitude).to eq(39.7392358)
     end
   end
-
+  
   describe "#self.foodtrucks_in_radius" do
-    it "returns a list of food trucks from a user provided place", :vcr do 
-      query = "Denver"
-
-      place = FoodtruckFacade.get_place_search_details(query)
-      foodtrucks = FoodtruckFacade.foodtrucks_in_radius(place)
+  it "returns a list of food trucks from a user provided place", :vcr do 
+    query = "Denver"
+    
+    place = FoodtruckFacade.get_place_search_details(query)
+    foodtrucks = FoodtruckFacade.foodtrucks_in_radius(place)
 
       expect(foodtrucks[0].address).to eq("16TH St And California St, Denver, CO 80202")
       expect(foodtrucks[0].image_url).to eq("https://s3-media2.fl.yelpcdn.com/bphoto/9_RGrE1oyWgDWu7pofvtPg/o.jpg")
