@@ -1,13 +1,13 @@
 class GoogleMapsPlacesService
   def self.conn
     Faraday.new(
-      url: "https://maps.googleapis.com/maps/api/place",
-      params: {
+      url: "https://maps.googleapis.com/maps/api/place") do |f|
+      f.params = {
         fields: 'formatted_address,name,geometry',
         inputtype: 'textquery',
         key: ENV['google_api_key']
       }
-    )
+    end
   end
 
   def self.parse_json(response)
