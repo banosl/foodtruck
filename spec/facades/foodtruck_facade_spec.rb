@@ -5,7 +5,7 @@ RSpec.describe FoodtruckFacade do
   #   load_stubs
   # end
   describe "self.get_place_search_details" do
-    it "it returns a place with details of the search query", :vcr do
+    it "it returns a place with details of the search query", vcr: { match_requests_on: [:method] } do
       query = "Denver"
 
       place = FoodtruckFacade.get_place_search_details(query)
@@ -17,7 +17,7 @@ RSpec.describe FoodtruckFacade do
   end
   
   describe "#self.foodtrucks_in_radius" do
-  it "returns a list of food trucks from a user provided place", :vcr do 
+  it "returns a list of food trucks from a user provided place", vcr: { match_requests_on: [:method] } do 
     query = "Denver"
     
     place = FoodtruckFacade.get_place_search_details(query)
