@@ -298,7 +298,7 @@ Root directory: 'http://localhost:3000/api/v1'
 <!-- Leo -->
   <img src="https://avatars.githubusercontent.com/u/111591731?v=4" alt="Profile" width="80" height="80"><br>
     Leo Banos Garcia<br>
-    <a href="https://github.com/banosl">Github: banosl</a>
+    <a href="https://github.com/banosl">Github: banosl</a><br>
     <a href="https://www.linkedin.com/in/leo-banos-garcia/">LinkedIn</a><br>
 
   </p>
