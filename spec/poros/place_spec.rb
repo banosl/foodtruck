@@ -24,7 +24,7 @@ RSpec.describe Place do
     }
 
     place1 = Place.new(data)
-
+    
     expect(place1.address).to eq("Denver, CO, USA")
     expect(place1.latitude).to eq(39.7392358)
     expect(place1.longitude).to eq(-104.990251)
