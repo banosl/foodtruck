@@ -4,7 +4,7 @@ RSpec.describe GoogleMapsPlacesService do
   # before :each do
   #   load_stubs
   # end
-  describe "#find_place", :vcr do
+  describe "#find_place", vcr: { :match_requests_on => :method } do
     it "returns a places with its coordinates from a text query" do
       query = "Denver"
       response = GoogleMapsPlacesService.find_place(query)
