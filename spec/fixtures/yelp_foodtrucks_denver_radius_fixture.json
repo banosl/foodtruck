@@ -1,0 +1,894 @@
+{
+  "businesses": [
+      {
+          "id": "gN8o-SG2PgCQGYrOCkkqng",
+          "alias": "liangs-thai-food-denver",
+          "name": "Liang's Thai Food",
+          "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/9_RGrE1oyWgDWu7pofvtPg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/liangs-thai-food-denver?adjust_creative=OwvDgRtTs1k3C1_VUOGMbA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OwvDgRtTs1k3C1_VUOGMbA",
+          "review_count": 420,
+          "categories": [
+              {
+                  "alias": "thai",
+                  "title": "Thai"
+              },
+              {
+                  "alias": "foodtrucks",
+                  "title": "Food Trucks"
+              }
+          ],
+          "rating": 4.5,
+          "coordinates": {
+              "latitude": 39.74521,
+              "longitude": -104.9921817
+          },
+          "transactions": [
+              "delivery"
+          ],
+          "price": "$",
+          "location": {
+              "address1": "16TH St And California St",
+              "address2": "",
+              "address3": "",
+              "city": "Denver",
+              "zip_code": "80202",
+              "country": "US",
+              "state": "CO",
+              "display_address": [
+                  "16TH St And California St",
+                  "Denver, CO 80202"
+              ]
+          },
+          "phone": "+17208108693",
+          "display_phone": "(720) 810-8693",
+          "distance": 684.5032800923377
+      },
+      {
+          "id": "XIrEwGKMLejG8ykxuV4l4Q",
+          "alias": "quiero-arepas-denver",
+          "name": "Quiero Arepas",
+          "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/SdQOebnVBuCn37_qFklY-g/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/quiero-arepas-denver?adjust_creative=OwvDgRtTs1k3C1_VUOGMbA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OwvDgRtTs1k3C1_VUOGMbA",
+          "review_count": 296,
+          "categories": [
+              {
+                  "alias": "gluten_free",
+                  "title": "Gluten-Free"
+              },
+              {
+                  "alias": "foodtrucks",
+                  "title": "Food Trucks"
+              },
+              {
+                  "alias": "venezuelan",
+                  "title": "Venezuelan"
+              }
+          ],
+          "rating": 4.5,
+          "coordinates": {
+              "latitude": 39.7622413635254,
+              "longitude": -105.00611114502
+          },
+          "transactions": [
+              "delivery"
+          ],
+          "price": "$$",
+          "location": {
+              "address1": "3200 Pecos St",
+              "address2": "",
+              "address3": "",
+              "city": "Denver",
+              "zip_code": "80211",
+              "country": "US",
+              "state": "CO",
+              "display_address": [
+                  "3200 Pecos St",
+                  "Denver, CO 80211"
+              ]
+          },
+          "phone": "+17204324205",
+          "display_phone": "(720) 432-4205",
+          "distance": 2898.1448026782487
+      },
+      {
+          "id": "VTAQhIV2L1BmtCZ6umtt6w",
+          "alias": "civic-center-eats-denver-4",
+          "name": "Civic Center EATS",
+          "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/mhFS7poX0-yUgbMZrnDA4A/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/civic-center-eats-denver-4?adjust_creative=OwvDgRtTs1k3C1_VUOGMbA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OwvDgRtTs1k3C1_VUOGMbA",
+          "review_count": 59,
+          "categories": [
+              {
+                  "alias": "foodtrucks",
+                  "title": "Food Trucks"
+              }
+          ],
+          "rating": 4.5,
+          "coordinates": {
+              "latitude": 39.738171,
+              "longitude": -104.988847
+          },
+          "transactions": [],
+          "price": "$",
+          "location": {
+              "address1": "101 W 14th Ave",
+              "address2": "",
+              "address3": "",
+              "city": "Denver",
+              "zip_code": "80202",
+              "country": "US",
+              "state": "CO",
+              "display_address": [
+                  "101 W 14th Ave",
+                  "Denver, CO 80202"
+              ]
+          },
+          "phone": "+13038614633",
+          "display_phone": "(303) 861-4633",
+          "distance": 168.61334325240963
+      },
+      {
+          "id": "8WRdHwtSm9JpZrfLdaX38Q",
+          "alias": "wongwayveg-denver",
+          "name": "WongWayVeg",
+          "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/t6xagm3F8BAbNvTemBn7gg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/wongwayveg-denver?adjust_creative=OwvDgRtTs1k3C1_VUOGMbA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OwvDgRtTs1k3C1_VUOGMbA",
+          "review_count": 86,
+          "categories": [
+              {
+                  "alias": "foodtrucks",
+                  "title": "Food Trucks"
+              },
+              {
+                  "alias": "vegan",
+                  "title": "Vegan"
+              }
+          ],
+          "rating": 5.0,
+          "coordinates": {
+              "latitude": 39.7541032,
+              "longitude": -105.0002242
+          },
+          "transactions": [],
+          "price": "$",
+          "location": {
+              "address1": "",
+              "address2": "",
+              "address3": "",
+              "city": "Denver",
+              "zip_code": "80202",
+              "country": "US",
+              "state": "CO",
+              "display_address": [
+                  "Denver, CO 80202"
+              ]
+          },
+          "phone": "+13035135422",
+          "display_phone": "(303) 513-5422",
+          "distance": 1860.1153410297356
+      },
+      {
+          "id": "MynAIAzWNjlbF4QLpWQpXw",
+          "alias": "sweet-cow-denver-2",
+          "name": "Sweet Cow",
+          "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/8-OiQ-cx7vglquPkL5bcpg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/sweet-cow-denver-2?adjust_creative=OwvDgRtTs1k3C1_VUOGMbA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OwvDgRtTs1k3C1_VUOGMbA",
+          "review_count": 210,
+          "categories": [
+              {
+                  "alias": "icecream",
+                  "title": "Ice Cream & Frozen Yogurt"
+              },
+              {
+                  "alias": "desserts",
+                  "title": "Desserts"
+              },
+              {
+                  "alias": "foodtrucks",
+                  "title": "Food Trucks"
+              }
+          ],
+          "rating": 4.5,
+          "coordinates": {
+              "latitude": 39.6823190136024,
+              "longitude": -104.980300815436
+          },
+          "transactions": [
+              "delivery",
+              "pickup"
+          ],
+          "price": "$$",
+          "location": {
+              "address1": "1882 Old S Pearl St",
+              "address2": null,
+              "address3": "",
+              "city": "Denver",
+              "zip_code": "80210",
+              "country": "US",
+              "state": "CO",
+              "display_address": [
+                  "1882 Old S Pearl St",
+                  "Denver, CO 80210"
+              ]
+          },
+          "phone": "+17204798838",
+          "display_phone": "(720) 479-8838",
+          "distance": 6385.827133351906
+      },
+      {
+          "id": "ljVZL3Ed2fYNz1tiknbe-Q",
+          "alias": "matts-snack-shack-denver",
+          "name": "Matts Snack Shack",
+          "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/PK44L_EqjmtvCo7ovPeXLQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/matts-snack-shack-denver?adjust_creative=OwvDgRtTs1k3C1_VUOGMbA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OwvDgRtTs1k3C1_VUOGMbA",
+          "review_count": 73,
+          "categories": [
+              {
+                  "alias": "foodtrucks",
+                  "title": "Food Trucks"
+              }
+          ],
+          "rating": 4.5,
+          "coordinates": {
+              "latitude": 39.7320404052734,
+              "longitude": -104.982467651367
+          },
+          "transactions": [],
+          "price": "$",
+          "location": {
+              "address1": "",
+              "address2": "",
+              "address3": "",
+              "city": "Denver",
+              "zip_code": "80203",
+              "country": "US",
+              "state": "CO",
+              "display_address": [
+                  "Denver, CO 80203"
+              ]
+          },
+          "phone": "+17207755456",
+          "display_phone": "(720) 775-5456",
+          "distance": 1101.7342060441524
+      },
+      {
+          "id": "PIg2YoMC44y-K8IT0-vkdw",
+          "alias": "yuan-wonton-food-truck-denver",
+          "name": "Yuan Wonton Food Truck",
+          "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/NbvKC2K23VzhauufOIA0hA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/yuan-wonton-food-truck-denver?adjust_creative=OwvDgRtTs1k3C1_VUOGMbA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OwvDgRtTs1k3C1_VUOGMbA",
+          "review_count": 69,
+          "categories": [
+              {
+                  "alias": "foodtrucks",
+                  "title": "Food Trucks"
+              },
+              {
+                  "alias": "dimsum",
+                  "title": "Dim Sum"
+              }
+          ],
+          "rating": 4.0,
+          "coordinates": {
+              "latitude": 39.7391214023437,
+              "longitude": -104.988903418924
+          },
+          "transactions": [],
+          "location": {
+              "address1": "",
+              "address2": "",
+              "address3": null,
+              "city": "Denver",
+              "zip_code": "80012",
+              "country": "US",
+              "state": "CO",
+              "display_address": [
+                  "Denver, CO 80012"
+              ]
+          },
+          "phone": "+17209613406",
+          "display_phone": "(720) 961-3406",
+          "distance": 115.92446142952531
+      },
+      {
+          "id": "DajzKPOE9W__TowUhc--qw",
+          "alias": "pho-king-rapidos-denver-4",
+          "name": "Pho King Rapidos",
+          "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/V6bVPTSvTVWMTc6d0YDVjA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/pho-king-rapidos-denver-4?adjust_creative=OwvDgRtTs1k3C1_VUOGMbA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OwvDgRtTs1k3C1_VUOGMbA",
+          "review_count": 31,
+          "categories": [
+              {
+                  "alias": "foodtrucks",
+                  "title": "Food Trucks"
+              },
+              {
+                  "alias": "vietnamese",
+                  "title": "Vietnamese"
+              }
+          ],
+          "rating": 4.5,
+          "coordinates": {
+              "latitude": 39.739535079523804,
+              "longitude": -104.984796
+          },
+          "transactions": [],
+          "location": {
+              "address1": "200 E Colfax Ave",
+              "address2": null,
+              "address3": "",
+              "city": "Denver",
+              "zip_code": "80203",
+              "country": "US",
+              "state": "CO",
+              "display_address": [
+                  "200 E Colfax Ave",
+                  "Denver, CO 80203"
+              ]
+          },
+          "phone": "+17209346266",
+          "display_phone": "(720) 934-6266",
+          "distance": 467.61208660159093
+      },
+      {
+          "id": "UfQ79qkRiwN5l2sNvaxAdw",
+          "alias": "gyro-king-denver",
+          "name": "Gyro King",
+          "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/6otcOnSdEtrWBWR1KY18vw/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/gyro-king-denver?adjust_creative=OwvDgRtTs1k3C1_VUOGMbA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OwvDgRtTs1k3C1_VUOGMbA",
+          "review_count": 45,
+          "categories": [
+              {
+                  "alias": "mediterranean",
+                  "title": "Mediterranean"
+              },
+              {
+                  "alias": "greek",
+                  "title": "Greek"
+              },
+              {
+                  "alias": "foodtrucks",
+                  "title": "Food Trucks"
+              }
+          ],
+          "rating": 5.0,
+          "coordinates": {
+              "latitude": 39.7533606724314,
+              "longitude": -104.995319574202
+          },
+          "transactions": [
+              "delivery",
+              "pickup"
+          ],
+          "price": "$$",
+          "location": {
+              "address1": "1909 Blake St",
+              "address2": "",
+              "address3": "",
+              "city": "Denver",
+              "zip_code": "80202",
+              "country": "US",
+              "state": "CO",
+              "display_address": [
+                  "1909 Blake St",
+                  "Denver, CO 80202"
+              ]
+          },
+          "phone": "+17203885899",
+          "display_phone": "(720) 388-5899",
+          "distance": 1629.2969373256142
+      },
+      {
+          "id": "OfXj0dgT4fSXP9QRVBiW7g",
+          "alias": "marquez-food-denver-2",
+          "name": "Marquez Food",
+          "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/VAFd_FBL0MoJqQjm9IgyJQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/marquez-food-denver-2?adjust_creative=OwvDgRtTs1k3C1_VUOGMbA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OwvDgRtTs1k3C1_VUOGMbA",
+          "review_count": 39,
+          "categories": [
+              {
+                  "alias": "mexican",
+                  "title": "Mexican"
+              },
+              {
+                  "alias": "foodtrucks",
+                  "title": "Food Trucks"
+              }
+          ],
+          "rating": 5.0,
+          "coordinates": {
+              "latitude": 39.75146,
+              "longitude": -104.99796
+          },
+          "transactions": [],
+          "price": "$",
+          "location": {
+              "address1": "17th and Blake",
+              "address2": "",
+              "address3": "",
+              "city": "Denver",
+              "zip_code": "80202",
+              "country": "US",
+              "state": "CO",
+              "display_address": [
+                  "17th and Blake",
+                  "Denver, CO 80202"
+              ]
+          },
+          "phone": "+17202294899",
+          "display_phone": "(720) 229-4899",
+          "distance": 1513.023714118807
+      },
+      {
+          "id": "LtZMSHZAYFqzDfDah2nd6A",
+          "alias": "crock-spot-denver",
+          "name": "Crock Spot",
+          "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/CGMPhzcHPxCESUkPgJXPyw/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/crock-spot-denver?adjust_creative=OwvDgRtTs1k3C1_VUOGMbA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OwvDgRtTs1k3C1_VUOGMbA",
+          "review_count": 110,
+          "categories": [
+              {
+                  "alias": "newamerican",
+                  "title": "American (New)"
+              },
+              {
+                  "alias": "foodtrucks",
+                  "title": "Food Trucks"
+              },
+              {
+                  "alias": "gluten_free",
+                  "title": "Gluten-Free"
+              }
+          ],
+          "rating": 4.5,
+          "coordinates": {
+              "latitude": 39.772649,
+              "longitude": -105.00688639922231
+          },
+          "transactions": [
+              "delivery",
+              "pickup"
+          ],
+          "price": "$",
+          "location": {
+              "address1": "4045 N Pecos St 130",
+              "address2": "Ste 130",
+              "address3": "",
+              "city": "Denver",
+              "zip_code": "80211",
+              "country": "US",
+              "state": "CO",
+              "display_address": [
+                  "4045 N Pecos St 130",
+                  "Ste 130",
+                  "Denver, CO 80211"
+              ]
+          },
+          "phone": "+13033532717",
+          "display_phone": "(303) 353-2717",
+          "distance": 3978.2224364406866
+      },
+      {
+          "id": "3ZLYexQSM6s494II_WL4FA",
+          "alias": "vegan-van-denver",
+          "name": "Vegan Van",
+          "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/XKVhk7vSJVO7uJ3nsvQMAQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/vegan-van-denver?adjust_creative=OwvDgRtTs1k3C1_VUOGMbA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OwvDgRtTs1k3C1_VUOGMbA",
+          "review_count": 135,
+          "categories": [
+              {
+                  "alias": "foodtrucks",
+                  "title": "Food Trucks"
+              },
+              {
+                  "alias": "sandwiches",
+                  "title": "Sandwiches"
+              }
+          ],
+          "rating": 4.5,
+          "coordinates": {
+              "latitude": 39.7712523,
+              "longitude": -104.9925898
+          },
+          "transactions": [],
+          "price": "$",
+          "location": {
+              "address1": "3900 Elati St",
+              "address2": null,
+              "address3": "",
+              "city": "Denver",
+              "zip_code": "80216",
+              "country": "US",
+              "state": "CO",
+              "display_address": [
+                  "3900 Elati St",
+                  "Denver, CO 80216"
+              ]
+          },
+          "phone": "+13032468175",
+          "display_phone": "(303) 246-8175",
+          "distance": 3565.6780300417317
+      },
+      {
+          "id": "IZYeVF2kAiwKCpeTX41EzQ",
+          "alias": "cupbop-korean-bbq-in-a-cup-denver-2",
+          "name": "Cupbop - Korean BBQ in a Cup",
+          "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/XrEs816ThFVk8qOmDI0b2A/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/cupbop-korean-bbq-in-a-cup-denver-2?adjust_creative=OwvDgRtTs1k3C1_VUOGMbA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OwvDgRtTs1k3C1_VUOGMbA",
+          "review_count": 39,
+          "categories": [
+              {
+                  "alias": "bbq",
+                  "title": "Barbeque"
+              },
+              {
+                  "alias": "korean",
+                  "title": "Korean"
+              },
+              {
+                  "alias": "foodtrucks",
+                  "title": "Food Trucks"
+              }
+          ],
+          "rating": 4.5,
+          "coordinates": {
+              "latitude": 39.743929958447694,
+              "longitude": -104.99024567420501
+          },
+          "transactions": [
+              "delivery",
+              "pickup"
+          ],
+          "location": {
+              "address1": "16TH St Mall",
+              "address2": null,
+              "address3": null,
+              "city": "Denver",
+              "zip_code": "80202",
+              "country": "US",
+              "state": "CO",
+              "display_address": [
+                  "16TH St Mall",
+                  "Denver, CO 80202"
+              ]
+          },
+          "phone": "+17206602522",
+          "display_phone": "(720) 660-2522",
+          "distance": 521.9662239663566
+      },
+      {
+          "id": "41kRzZjTbYC_3o3TvbsGww",
+          "alias": "moontime-crepes-edgewater-3",
+          "name": "Moontime Crepes",
+          "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/L99jVJJZQSbSXrapbzpPyw/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/moontime-crepes-edgewater-3?adjust_creative=OwvDgRtTs1k3C1_VUOGMbA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OwvDgRtTs1k3C1_VUOGMbA",
+          "review_count": 120,
+          "categories": [
+              {
+                  "alias": "creperies",
+                  "title": "Creperies"
+              },
+              {
+                  "alias": "foodtrucks",
+                  "title": "Food Trucks"
+              }
+          ],
+          "rating": 4.5,
+          "coordinates": {
+              "latitude": 39.7489409905806,
+              "longitude": -105.05699399617681
+          },
+          "transactions": [
+              "delivery",
+              "pickup"
+          ],
+          "price": "$",
+          "location": {
+              "address1": "5505 W 20th Ave",
+              "address2": "Ste 104",
+              "address3": "",
+              "city": "Edgewater",
+              "zip_code": "80214",
+              "country": "US",
+              "state": "CO",
+              "display_address": [
+                  "5505 W 20th Ave",
+                  "Ste 104",
+                  "Edgewater, CO 80214"
+              ]
+          },
+          "phone": "+17207258952",
+          "display_phone": "(720) 725-8952",
+          "distance": 5807.575836060633
+      },
+      {
+          "id": "juxolD57XzJqRQdKzangmQ",
+          "alias": "konjo-ethiopian-food-edgewater",
+          "name": "Konjo Ethiopian Food",
+          "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/0j5yTEl1gSlVgFNNa8skxA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/konjo-ethiopian-food-edgewater?adjust_creative=OwvDgRtTs1k3C1_VUOGMbA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OwvDgRtTs1k3C1_VUOGMbA",
+          "review_count": 124,
+          "categories": [
+              {
+                  "alias": "ethiopian",
+                  "title": "Ethiopian"
+              },
+              {
+                  "alias": "foodtrucks",
+                  "title": "Food Trucks"
+              }
+          ],
+          "rating": 4.5,
+          "coordinates": {
+              "latitude": 39.7486013,
+              "longitude": -105.0569911
+          },
+          "transactions": [
+              "delivery",
+              "pickup"
+          ],
+          "price": "$$",
+          "location": {
+              "address1": "5505 W 20th Ave",
+              "address2": "Ste 106",
+              "address3": "Edgewater Public Market",
+              "city": "Edgewater",
+              "zip_code": "80214",
+              "country": "US",
+              "state": "CO",
+              "display_address": [
+                  "5505 W 20th Ave",
+                  "Ste 106",
+                  "Edgewater Public Market",
+                  "Edgewater, CO 80214"
+              ]
+          },
+          "phone": "+17203105551",
+          "display_phone": "(720) 310-5551",
+          "distance": 5800.44603091713
+      },
+      {
+          "id": "JSBLdBfaAC9bUaQVJvKqYA",
+          "alias": "kikés-red-tacos-denver",
+          "name": "Kiké's Red Tacos",
+          "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/X3KT8dk8I25GCkxIuJAysA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/kik%C3%A9s-red-tacos-denver?adjust_creative=OwvDgRtTs1k3C1_VUOGMbA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OwvDgRtTs1k3C1_VUOGMbA",
+          "review_count": 105,
+          "categories": [
+              {
+                  "alias": "foodtrucks",
+                  "title": "Food Trucks"
+              },
+              {
+                  "alias": "mexican",
+                  "title": "Mexican"
+              }
+          ],
+          "rating": 4.5,
+          "coordinates": {
+              "latitude": 39.7693092,
+              "longitude": -105.035491
+          },
+          "transactions": [],
+          "price": "$$",
+          "location": {
+              "address1": "3640 W 38th Ave",
+              "address2": null,
+              "address3": null,
+              "city": "Denver",
+              "zip_code": "80211",
+              "country": "US",
+              "state": "CO",
+              "display_address": [
+                  "3640 W 38th Ave",
+                  "Denver, CO 80211"
+              ]
+          },
+          "phone": "+17203970591",
+          "display_phone": "(720) 397-0591",
+          "distance": 5112.633640461043
+      },
+      {
+          "id": "KwrLHUW1zu0XYq2GP5-3hA",
+          "alias": "happy-cones-edgewater",
+          "name": "Happy Cones",
+          "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/f4BwTtown24FGRLm58av4w/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/happy-cones-edgewater?adjust_creative=OwvDgRtTs1k3C1_VUOGMbA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OwvDgRtTs1k3C1_VUOGMbA",
+          "review_count": 101,
+          "categories": [
+              {
+                  "alias": "foodtrucks",
+                  "title": "Food Trucks"
+              },
+              {
+                  "alias": "icecream",
+                  "title": "Ice Cream & Frozen Yogurt"
+              }
+          ],
+          "rating": 4.5,
+          "coordinates": {
+              "latitude": 39.74894726170154,
+              "longitude": -105.05696024113745
+          },
+          "transactions": [
+              "delivery",
+              "pickup"
+          ],
+          "price": "$",
+          "location": {
+              "address1": "5505 W 20th Ave",
+              "address2": "Ste 190",
+              "address3": "",
+              "city": "Edgewater",
+              "zip_code": "80214",
+              "country": "US",
+              "state": "CO",
+              "display_address": [
+                  "5505 W 20th Ave",
+                  "Ste 190",
+                  "Edgewater, CO 80214"
+              ]
+          },
+          "phone": "+17203363392",
+          "display_phone": "(720) 336-3392",
+          "distance": 5804.86954193422
+      },
+      {
+          "id": "29UlUzkFIG_NqOnM0W_tNw",
+          "alias": "improper-city-denver",
+          "name": "Improper City",
+          "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/btvf89xrw5Ot_CRcLxSCeA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/improper-city-denver?adjust_creative=OwvDgRtTs1k3C1_VUOGMbA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OwvDgRtTs1k3C1_VUOGMbA",
+          "review_count": 148,
+          "categories": [
+              {
+                  "alias": "foodtrucks",
+                  "title": "Food Trucks"
+              },
+              {
+                  "alias": "coffee",
+                  "title": "Coffee & Tea"
+              },
+              {
+                  "alias": "cocktailbars",
+                  "title": "Cocktail Bars"
+              }
+          ],
+          "rating": 4.0,
+          "coordinates": {
+              "latitude": 39.7650829371933,
+              "longitude": -104.9789802434
+          },
+          "transactions": [],
+          "price": "$$",
+          "location": {
+              "address1": "3201 Walnut St",
+              "address2": "Ste 101",
+              "address3": null,
+              "city": "Denver",
+              "zip_code": "80205",
+              "country": "US",
+              "state": "CO",
+              "display_address": [
+                  "3201 Walnut St",
+                  "Ste 101",
+                  "Denver, CO 80205"
+              ]
+          },
+          "phone": "+17206660043",
+          "display_phone": "(720) 666-0043",
+          "distance": 3031.2760901715083
+      },
+      {
+          "id": "yJCrPeqHk9BSHAEB3Si3zg",
+          "alias": "east-coast-joes-chandler",
+          "name": "East Coast Joe's",
+          "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/lxG3uyAi6smZ7laqXRvamQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/east-coast-joes-chandler?adjust_creative=OwvDgRtTs1k3C1_VUOGMbA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OwvDgRtTs1k3C1_VUOGMbA",
+          "review_count": 38,
+          "categories": [
+              {
+                  "alias": "foodtrucks",
+                  "title": "Food Trucks"
+              }
+          ],
+          "rating": 4.5,
+          "coordinates": {
+              "latitude": 39.7399101257324,
+              "longitude": -104.990180969238
+          },
+          "transactions": [],
+          "price": "$$",
+          "location": {
+              "address1": "",
+              "address2": "",
+              "address3": "",
+              "city": "Chandler",
+              "zip_code": "85225",
+              "country": "US",
+              "state": "AZ",
+              "display_address": [
+                  "Chandler, AZ 85225"
+              ]
+          },
+          "phone": "+13035254949",
+          "display_phone": "(303) 525-4949",
+          "distance": 75.2202307801518
+      },
+      {
+          "id": "Mh16Ok_DogL6dDZt4mNcVg",
+          "alias": "rock-n-lobster-roll-denver-2",
+          "name": "Rock N Lobster Roll",
+          "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/-DTwMmcvgZ2yxmy43qNLVA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/rock-n-lobster-roll-denver-2?adjust_creative=OwvDgRtTs1k3C1_VUOGMbA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OwvDgRtTs1k3C1_VUOGMbA",
+          "review_count": 106,
+          "categories": [
+              {
+                  "alias": "foodtrucks",
+                  "title": "Food Trucks"
+              },
+              {
+                  "alias": "seafood",
+                  "title": "Seafood"
+              },
+              {
+                  "alias": "sandwiches",
+                  "title": "Sandwiches"
+              }
+          ],
+          "rating": 4.5,
+          "coordinates": {
+              "latitude": 39.7696095,
+              "longitude": -104.9766261
+          },
+          "transactions": [
+              "delivery",
+              "pickup"
+          ],
+          "price": "$$",
+          "location": {
+              "address1": "3501 Wazee St",
+              "address2": null,
+              "address3": null,
+              "city": "Denver ",
+              "zip_code": "80216",
+              "country": "US",
+              "state": "CO",
+              "display_address": [
+                  "3501 Wazee St",
+                  "Denver , CO 80216"
+              ]
+          },
+          "phone": "+13035228309",
+          "display_phone": "(303) 522-8309",
+          "distance": 3572.593017130932
+      }
+  ],
+  "total": 328,
+  "region": {
+      "center": {
+          "longitude": -104.990251,
+          "latitude": 39.7392358
+      }
+  }
+}

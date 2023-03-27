@@ -1,0 +1,25 @@
+{
+  "candidates": [
+      {
+          "formatted_address": "Denver, CO, USA",
+          "geometry": {
+              "location": {
+                  "lat": 39.7392358,
+                  "lng": -104.990251
+              },
+              "viewport": {
+                  "northeast": {
+                      "lat": 39.91424689999999,
+                      "lng": -104.6002959
+                  },
+                  "southwest": {
+                      "lat": 39.614431,
+                      "lng": -105.109927
+                  }
+              }
+          },
+          "name": "Denver"
+      }
+  ],
+  "status": "OK"
+}
