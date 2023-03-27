@@ -20,8 +20,9 @@ jobs:
           - "5432:5432"
         env:
           POSTGRES_DB: rails_test
-          POSTGRES_USER: postgres
-          POSTGRES_PASSWORD: password
+          POSTGRES_USER: Food_Truck_BE
+
+          POSTGRES_PASSWORD: ENV['password']
     env:
       RAILS_ENV: test
       DATABASE_URL: "postgres://rails:password@localhost:5432/rails_test"
