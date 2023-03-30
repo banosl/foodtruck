@@ -5,6 +5,7 @@ class EventSerializer
               :longitude, 
               :start_time, 
               :end_time, 
-              :description
+              :description,
+              :city
 
 end
