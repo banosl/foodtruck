@@ -6,5 +6,6 @@ FactoryBot.define do
     start_time  { Faker::Time.between_dates(from: Date.today, to: Date.today + 10).to_s }
     end_time    { start_time }
     description { Faker::Books::Dune.quote }
+    city        { Faker::Nation.capital_city }
   end
 end
