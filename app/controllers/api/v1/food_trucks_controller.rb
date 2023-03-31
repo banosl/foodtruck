@@ -1,7 +1,11 @@
 class Api::V1::FoodTrucksController < ApplicationController
   def index
-    foodtrucks = FoodTruck.all
-    render json: FoodTruckSerializer.new(foodtrucks)
+    if params[:city]
+      render json: FoodTruckSerializer.new(FoodTruck.joins(:events).where(events: { city: params[:city] } ))
+    else 
+      foodtrucks = FoodTruck.all
+      render json: FoodTruckSerializer.new(foodtrucks)
+    end
   end
 
   def show
