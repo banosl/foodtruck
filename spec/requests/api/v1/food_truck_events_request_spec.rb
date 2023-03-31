@@ -6,10 +6,10 @@ RSpec.describe 'endpoints for food truck event creation/updating' do
   end
 
   it 'can create a new event for a foodtruck given appropriate data', vcr: { match_requests_on: [:method] } do
-    event_params = {  event_date: Date.today,
+    event_params = {  event_date: "2023-03-31",
                       location: "6631 Beverly Blvd, Everett, WA 98203",
-                      start_time: Time.now,
-                      end_time: Time.now + 2.hours,
+                      start_time: "2023-03-31 10:41:01 -0600",
+                      end_time: "2023-03-31 12:41:01 -0600",
                       description: "We are going to be here selling food",
                       city: "Everett"
                       }
@@ -23,11 +23,11 @@ RSpec.describe 'endpoints for food truck event creation/updating' do
     expect(new_event).to have_key(:id)
     expect(new_event).to have_key(:attributes)
     expect(new_event[:attributes]).to be_a(Hash)
-    expect(new_event[:attributes][:event_date]).to eq(Date.today.strftime('%Y-%m-%d'))
+    expect(new_event[:attributes][:event_date]).to eq('2023-03-31')
     expect(new_event[:attributes][:latitude]).to eq(47.9368756)
     expect(new_event[:attributes][:longitude]).to eq(-122.2094365)
-    expect(new_event[:attributes][:start_time]).to eq(Time.now.to_s)
-    expect(new_event[:attributes][:end_time]).to eq((Time.now + 2.hours).to_s)
+    expect(new_event[:attributes][:start_time]).to eq("2023-03-31 10:41:01 -0600")
+    expect(new_event[:attributes][:end_time]).to eq("2023-03-31 12:41:01 -0600")
     expect(new_event[:attributes][:description]).to eq("We are going to be here selling food")
     expect(new_event[:attributes][:city]).to eq("Everett")
   end
