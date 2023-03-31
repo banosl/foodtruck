@@ -110,4 +110,22 @@ RSpec.describe 'food truck API endpoints' do
     expect(updated_truck.image_link).to eq("www.yumyumtruck.com/cool_photo.jpg")
     expect(updated_truck.image_link).to_not eq(old_truck.image_link)
   end
+
+  it 'can return only food trucks belonging to a city defined in a query param' do
+    @truck1 = create(:food_truck)
+    create(:event, city: "Seattle", food_truck_id: @truck1.id)
+    @truck2 = create(:food_truck)
+    create(:event, city: "Seattle", food_truck_id: @truck2.id)
+
+    get api_v1_food_trucks_path, params: { city: "Seattle" }
+
+    expect(response).to be_successful
+
+    seattle_trucks = JSON.parse(response.body, symbolize_names: true)[:data]
+
+    expect(seattle_trucks.count).to eq(2)
+
+
+
+  end
 end
