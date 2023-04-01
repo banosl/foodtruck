@@ -7,7 +7,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins 'https://intense-thicket-16951.herokuapp.com/api/v1/food_trucks'
+    origins 'http://localhost:3000'
 
     resource '*',
       headers: :any,
