@@ -70,6 +70,10 @@ This repo is the back end for such a website. It exposes custom endpoints for cr
 ### Built With
 
 </br>[![Rails]][Rails-url]
+</br>[![Postgres]][Postgres-url]
+</br>[![GitHub Actions]][Github-url]
+</br>[![AWS]][AWS-url]
+</br>[![Visual Studio Code]][VSCode-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -395,3 +399,11 @@ Root directory: 'http://localhost:3000/api/v1'
 [Bootstrap-url]: https://getbootstrap.com
 [Rails]: https://img.shields.io/badge/-Ruby%20on%20Rails-CC0000?logo=ruby-on-rails&logoColor=white&style=for-the-badge
 [Rails-url]: https://rubyonrails.org 
+[GitHub Actions]: https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white
+[Github-url]: https://docs.github.com/en/actions
+[Postgres]: https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white
+[Postgres-url]: https://www.postgresql.org/
+[AWS]: https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white
+[AWS-url]: https://aws.amazon.com/
+[Visual Studio Code]: https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white
+[VSCode-url]: https://code.visualstudio.com/
