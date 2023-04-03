@@ -1,23 +1,12 @@
 class Api::V1::EventsController < ApplicationController
   def create
-    truck = FoodTruck.find(params[:food_truck_id])
-    place = FoodtruckFacade.get_place_search_details("#{params[:location]}," + "#{params[:city]}")
-    new_event = truck.events.new(event_params)
-    new_event.latitude = place.latitude
-    new_event.longitude = place.longitude
-    new_event.save
+    new_event = Event.create_with_data(params[:food_truck_id], event_params, params[:location])
     render json: EventSerializer.new(new_event)
   end
 
   def update
-    event = Event.find(params[:id])
-    event.update(event_params)
-    if params[:location]
-      place = FoodtruckFacade.get_place_search_details("#{params[:location]}," + "#{params[:city]}")
-      event.update(latitude: place.latitude)
-      event.update(longitude: place.longitude)
-    end
-    render json: EventSerializer.new(event)
+    Event.update_with_data(params[:id], event_params, params[:location] ||= nil)
+    render json: EventSerializer.new(Event.find(params[:id]))
   end
 
   private
