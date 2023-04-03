@@ -302,44 +302,27 @@ Root directory: 'http://localhost:3000/api/v1'
 
 <div align="center">
   <p align="center">
-    <!-- Angie -->
-    <img src="https://avatars.githubusercontent.com/u/106895319?s=96&v=4" alt="Profile" width="80" height="80"><br>
-      Angie Staffieri<br>
-      <a href="https://github.com/arstaffieri">Github: arstaffieri</a><br>
-      <a href="https://www.linkedin.com/in/angie-staffieri/">LinkedIn</a><br>
-    <!-- John -->
-    <img src="https://avatars.githubusercontent.com/u/113194002?s=96&v=4" alt="Profile" width="80" height="80"><br>
-      John Ammon<br>
-      <a href="https://github.com/Mortis78">Github: Mortis78</a><br>
-      <a href="https://www.linkedin.com/in/johnathon-ammon-turing-01a86919a/">LinkedIn</a><br>
-    <!-- Jordan -->
-    <img src="https://avatars.githubusercontent.com/u/107894408?s=96&v=4" alt="Profile" width="80" height="80"><br>
-      Jordan Smith<br>
-       <a href="https://github.com/jaysmith2022">Github: jaysmith2022</a><br>
-      <a href="https://www.linkedin.com/in/jordan-smith-331a0280/">LinkedIn</a><br>
+
+  |     |     |    |
+  | :---    | :---      | :---          |
+  | <img src="https://avatars.githubusercontent.com/u/106895319?s=96&v=4" alt="Profile" width="80" height="80"><br> | <img src="https://avatars.githubusercontent.com/u/113194002?s=96&v=4" alt="Profile" width="80" height="80"><br> | <img src="https://avatars.githubusercontent.com/u/107894408?s=96&v=4" alt="Profile" width="80" height="80"><br> |
+  |   Angie Staffieri   | John Ammon | Jordan Smith |
+  | [![Github]][GithubAngie-url] | [![Github]][GithubJohn-url] | [![Github]][GithubJordan-url] |
+  | [![LinkedIn]][LinkedInAngie-url] | [![LinkedIn]][LinkedInJohn-url] | [![LinkedIn]][LinkedInJordan-url] |
+    
   </p>
 </div>
 
 #### Back End
   <div align="center">
   <p align="center">
-<!-- Brady -->
-  <img src="https://avatars.githubusercontent.com/u/108315713?v=4" alt="Profile" width="80" height="80"><br>
-    Brady Rohrig<br>
-    <a href="https://github.com/BRohrig">Github: BRohrig</a><br>
-    <a href="https://www.linkedin.com/in/bradyrohrig/">LinkedIn</a><br>
 
-<!-- Bryan -->
-  <img src="https://avatars.githubusercontent.com/u/109649285?s=96&v=4" alt="Profile" width="80" height="80"><br>
-    Bryan Flanagan<br>
-    <a href="https://github.com/bflanagan138">Github: bflanagan138</a><br>
-    <a href="https://www.linkedin.com/in/jordan-smith-331a0280/">LinkedIn</a><br>
-
-<!-- Leo -->
-  <img src="https://avatars.githubusercontent.com/u/111591731?v=4" alt="Profile" width="80" height="80"><br>
-    Leo Banos Garcia<br>
-    <a href="https://github.com/banosl">Github: banosl</a><br>
-    <a href="https://www.linkedin.com/in/leo-banos-garcia/">LinkedIn</a><br>
+  |     |     |    |
+  | :---    | :---      | :---          |
+  | <img src="https://avatars.githubusercontent.com/u/108315713?v=4" alt="Profile" width="80" height="80"><br> | <img src="https://avatars.githubusercontent.com/u/109649285?s=96&v=4" alt="Profile" width="80" height="80"><br> | <img src="https://avatars.githubusercontent.com/u/111591731?v=4" alt="Profile" width="80" height="80"><br> |
+  |   Brady Rohrig   | Bryan Flanagan | Leo Banos Garcia |
+  | [![Github]][GithubBrady-url] | [![Github]][GithubBryan-url] | [![Github]][GithubLeo-url] |
+  | [![LinkedIn]][LinkedInBrady-url] | [![LinkedIn]][LinkedInBryan-url] | [![LinkedIn]][LinkedInLeo-url] |
 
   </p>
 </div>
@@ -347,17 +330,13 @@ Root directory: 'http://localhost:3000/api/v1'
   #### Project Management & Mentorship
 <div align="center">
   <p align="center">
-<!-- Brian -->
-  <img src="https://avatars.githubusercontent.com/u/8962411?v=4" alt="Profile" width="80" height="80"><br>
-    Brian Zanti<br>
-    <a href="https://github.com/brianzanti">Github: brianzanti</a><br>
-    <a href="https://www.linkedin.com/in/brianzanti/">LinkedIn</a><br>
 
-<!-- Taylor -->
-  <img src="https://media.licdn.com/dms/image/C4E03AQFHaHNNYFW_ZQ/profile-displayphoto-shrink_400_400/0/1593050161041?e=1685577600&v=beta&t=5VbVgzqev-QMUqAmcqdSsAv5Rtj8DOzdOa2wLwjNpk0" alt="Profile" width="80" height="80"><br>
-    Taylor Pridgen<br>
-    <a href="https://www.linkedin.com/in/taylor-pridgen-a3aa7918/">LinkedIn</a><br>
-
+|     |     |    |
+  | :---    | :---      | :---          |
+  | <img src="https://avatars.githubusercontent.com/u/8962411?v=4" alt="Profile" width="80" height="80"><br> | <img src="https://media.licdn.com/dms/image/C4E03AQFHaHNNYFW_ZQ/profile-displayphoto-shrink_400_400/0/1593050161041?e=1685577600&v=beta&t=5VbVgzqev-QMUqAmcqdSsAv5Rtj8DOzdOa2wLwjNpk0" alt="Profile" width="80" height="80"><br> |
+  |   Brian Zanti   | Taylor Pridgen |
+  | [![Github]][GithubBrian-url] |
+  | [![LinkedIn]][LinkedInBrian-url] | [![LinkedIn]][LinkedInTaylor-url] |
   
   </p>
 </div>
@@ -407,3 +386,21 @@ Root directory: 'http://localhost:3000/api/v1'
 [AWS-url]: https://aws.amazon.com/
 [Visual Studio Code]: https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white
 [VSCode-url]: https://code.visualstudio.com/
+[Github]: https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white
+[GithubBrady-url]: https://github.com/BRohrig
+[GithubBryan-url]: https://github.com/bflanagan138
+[GithubLeo-url]: https://github.com/banosl
+[GithubAngie-url]: https://github.com/arstaffieri
+[GithubJohn-url]: https://github.com/Mortis78
+[GithubJordan-url]: https://github.com/jaysmith2022
+[GithubBrian-url]: https://github.com/brianzanti
+<!-- [GithubTaylor-url]:  -->
+[LinkedIn]: https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white
+[LinkedInBrady-url]: https://www.linkedin.com/in/bradyrohrig/
+[LinkedInBryan-url]: https://www.linkedin.com/in/bryanflanagan138/
+[LinkedInLeo-url]: https://www.linkedin.com/in/leo-banos-garcia/
+[LinkedInAngie-url]: https://www.linkedin.com/in/angie-staffieri
+[LinkedInJohn-url]: https://www.linkedin.com/in/johnathon-ammon-turing-01a86919a/
+[LinkedInJordan-url]: https://www.linkedin.com/in/jordan-smith-331a0280/
+[LinkedInBrian-url]: https://www.linkedin.com/in/brianzanti/
+[LinkedInTaylor-url]: https://www.linkedin.com/in/taylor-pridgen-a3aa7918/
