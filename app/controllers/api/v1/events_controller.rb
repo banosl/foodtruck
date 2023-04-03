@@ -1,7 +1,7 @@
 class Api::V1::EventsController < ApplicationController
   def create
     truck = FoodTruck.find(params[:food_truck_id])
-    place = FoodtruckFacade.get_place_search_details(params[:location])
+    place = FoodtruckFacade.get_place_search_details("#{params[:location]}," + "#{params[:city]}")
     new_event = truck.events.new(event_params)
     new_event.latitude = place.latitude
     new_event.longitude = place.longitude
@@ -13,7 +13,7 @@ class Api::V1::EventsController < ApplicationController
     event = Event.find(params[:id])
     event.update(event_params)
     if params[:location]
-      place = FoodtruckFacade.get_place_search_details(params[:location])
+      place = FoodtruckFacade.get_place_search_details("#{params[:location]}," + "#{params[:city]}")
       event.update(latitude: place.latitude)
       event.update(longitude: place.longitude)
     end
