@@ -182,12 +182,12 @@ Root directory: 'http://localhost:3000/api/v1'
   - Params:
   - Body:
     ```
-    {
-      "name": string,
-      "cuisine_type": string,
-      "web_link": string,
-      "image_link": string
-    }
+      {
+        "name": string,
+        "cuisine_type": string,
+        "web_link": string,
+        "image_link": string
+      }
     ```
   - Successful response:
     ```
@@ -208,12 +208,12 @@ Root directory: 'http://localhost:3000/api/v1'
   - Params:
   - Body:
     ```
-    {
-      "name": string,
-      "cuisine_type": string,
-      "web_link": string,
-      "image_link": string
-    }
+      {
+        "name": string,
+        "cuisine_type": string,
+        "web_link": string,
+        "image_link": string
+      }
     ```
   - Successful response:
     ```
@@ -234,14 +234,14 @@ Root directory: 'http://localhost:3000/api/v1'
   - Params:
   - Body:
     ```
-    {  
-      "event_date": string,
-      "location": string,
-      "start_time": time,
-      "end_time": time,
-      "description": string,
-      "city": string
-    }
+      {  
+        "event_date": string,
+        "location": string,
+        "start_time": time,
+        "end_time": time,
+        "description": string,
+        "city": string
+      }
     ```
   - Successful response:
     ```
@@ -266,14 +266,14 @@ Root directory: 'http://localhost:3000/api/v1'
   - Params:
   - Body:
     ```
-    {  
-      "event_date": string,
-      "location": string,
-      "start_time": time,
-      "end_time": time,
-      "description": string,
-      "city": string
-    }
+      {  
+        "event_date": string,
+        "location": string,
+        "start_time": time,
+        "end_time": time,
+        "description": string,
+        "city": string
+      }
     ```
   - Successful response:
     ```
