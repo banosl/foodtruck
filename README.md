@@ -304,7 +304,7 @@ Root directory: 'http://localhost:3000/api/v1'
   <p align="center">
 
   |     |     |    |
-  | :---    | :---      | :---          |
+  | :---: | :---: | :---: |
   | <img src="https://avatars.githubusercontent.com/u/106895319?s=96&v=4" alt="Profile" width="80" height="80"><br> | <img src="https://avatars.githubusercontent.com/u/113194002?s=96&v=4" alt="Profile" width="80" height="80"><br> | <img src="https://avatars.githubusercontent.com/u/107894408?s=96&v=4" alt="Profile" width="80" height="80"><br> |
   |   Angie Staffieri   | John Ammon | Jordan Smith |
   | [![Github]][GithubAngie-url] | [![Github]][GithubJohn-url] | [![Github]][GithubJordan-url] |
@@ -318,7 +318,7 @@ Root directory: 'http://localhost:3000/api/v1'
   <p align="center">
 
   |     |     |    |
-  | :---    | :---      | :---          |
+  | :---: | :---: | :---: |
   | <img src="https://avatars.githubusercontent.com/u/108315713?v=4" alt="Profile" width="80" height="80"><br> | <img src="https://avatars.githubusercontent.com/u/109649285?s=96&v=4" alt="Profile" width="80" height="80"><br> | <img src="https://avatars.githubusercontent.com/u/111591731?v=4" alt="Profile" width="80" height="80"><br> |
   |   Brady Rohrig   | Bryan Flanagan | Leo Banos Garcia |
   | [![Github]][GithubBrady-url] | [![Github]][GithubBryan-url] | [![Github]][GithubLeo-url] |
@@ -331,8 +331,8 @@ Root directory: 'http://localhost:3000/api/v1'
 <div align="center">
   <p align="center">
 
-|     |     |    |
-  | :---    | :---      | :---          |
+  |     |     |    |
+  | :---: | :---: | :---: |
   | <img src="https://avatars.githubusercontent.com/u/8962411?v=4" alt="Profile" width="80" height="80"><br> | <img src="https://media.licdn.com/dms/image/C4E03AQFHaHNNYFW_ZQ/profile-displayphoto-shrink_400_400/0/1593050161041?e=1685577600&v=beta&t=5VbVgzqev-QMUqAmcqdSsAv5Rtj8DOzdOa2wLwjNpk0" alt="Profile" width="80" height="80"><br> |
   |   Brian Zanti   | Taylor Pridgen |
   | [![Github]][GithubBrian-url] |
