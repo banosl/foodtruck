@@ -78,8 +78,8 @@ This repo is the back end for such a website. It exposes custom endpoints for cr
 
 ### Prerequisites
 
-* Ruby 2.7.4
-* Rails 5.2.8
+* Ruby 3.0.5
+* Rails 6.1
 
 ### Installation
 
@@ -177,6 +177,14 @@ Root directory: 'http://localhost:3000/api/v1'
 - `POST food_trucks`
   - Params:
   - Body:
+    ```
+    {
+      "name": string,
+      "cuisine_type": string,
+      "web_link": string,
+      "image_link": string
+    }
+    ```
   - Successful response:
     ```
     {
@@ -195,6 +203,14 @@ Root directory: 'http://localhost:3000/api/v1'
 - `PATCH food_trucks/:id`
   - Params:
   - Body:
+    ```
+    {
+      "name": string,
+      "cuisine_type": string,
+      "web_link": string,
+      "image_link": string
+    }
+    ```
   - Successful response:
     ```
     {
@@ -213,6 +229,16 @@ Root directory: 'http://localhost:3000/api/v1'
 - `POST food_trucks/:id/events`
   - Params:
   - Body:
+    ```
+    {  
+      "event_date": string,
+      "location": string,
+      "start_time": time,
+      "end_time": time,
+      "description": string,
+      "city": string
+    }
+    ```
   - Successful response:
     ```
     {
@@ -235,6 +261,16 @@ Root directory: 'http://localhost:3000/api/v1'
 - `PATCH /food_trucks/:id/events/:id`
   - Params:
   - Body:
+    ```
+    {  
+      "event_date": string,
+      "location": string,
+      "start_time": time,
+      "end_time": time,
+      "description": string,
+      "city": string
+    }
+    ```
   - Successful response:
     ```
     {
