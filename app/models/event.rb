@@ -20,11 +20,15 @@ class Event < ApplicationRecord
 
   def self.update_with_data(event_id, update_params, location)
     event = Event.find(event_id)
-    event.update(update_params)
-    unless location.nil?
-      place = FoodtruckFacade.get_place_search_details("#{location}," + "#{update_params[:city]}")
+    if FoodtruckFacade.get_place_search_details("#{location}, " + "#{update_params[:city]}") == "No Results Found"
+      false
+    elsif location != nil
+      event.update(update_params)
+      place = FoodtruckFacade.get_place_search_details("#{location}, " + "#{update_params[:city]}")
       event.update(latitude: place.latitude)
       event.update(longitude: place.longitude)
+    else
+      event.update(update_params)
     end
   end
 end

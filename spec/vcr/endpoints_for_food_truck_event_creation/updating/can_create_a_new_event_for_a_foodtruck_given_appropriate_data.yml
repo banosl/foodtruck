@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://maps.googleapis.com/maps/api/place/findplacefromtext/json?fields=formatted_address,name,geometry&input=6631%20Beverly%20Blvd,%20Everett,%20WA%2098203&inputtype=textquery&key=<google_api_key>
+    uri: https://maps.googleapis.com/maps/api/place/findplacefromtext/json?fields=formatted_address,name,geometry&input=6631%20Beverly%20Blvd,%20Everett,%20WA%2098203,Everett&inputtype=textquery&key=<google_api_key>
     body:
       encoding: US-ASCII
       string: ''
@@ -21,9 +21,9 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Thu, 30 Mar 2023 20:11:21 GMT
+      - Tue, 04 Apr 2023 00:57:33 GMT
       Expires:
-      - Thu, 30 Mar 2023 20:16:21 GMT
+      - Tue, 04 Apr 2023 01:02:33 GMT
       Cache-Control:
       - public, max-age=300
       Server:
@@ -35,7 +35,7 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Server-Timing:
-      - gfet4t7; dur=273
+      - gfet4t7; dur=262
       Alt-Svc:
       - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
     body:
@@ -66,5 +66,5 @@ http_interactions:
            ],
            "status" : "OK"
         }
-  recorded_at: Thu, 30 Mar 2023 20:11:21 GMT
+  recorded_at: Tue, 04 Apr 2023 00:57:33 GMT
 recorded_with: VCR 6.1.0

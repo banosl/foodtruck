@@ -18,6 +18,14 @@ http_interactions:
       code: 200
       message: OK
     headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Tue, 04 Apr 2023 00:57:34 GMT
+      Expires:
+      - Tue, 04 Apr 2023 01:02:34 GMT
+      Cache-Control:
+      - public, max-age=300
       Server:
       - scaffolding on HTTPServer2
       Content-Length:
@@ -26,18 +34,8 @@ http_interactions:
       - '0'
       X-Frame-Options:
       - SAMEORIGIN
-      Date:
-      - Mon, 03 Apr 2023 17:51:16 GMT
-      Expires:
-      - Mon, 03 Apr 2023 17:56:16 GMT
-      Cache-Control:
-      - public, max-age=300
-      Content-Type:
-      - application/json; charset=UTF-8
-      Age:
-      - '138'
       Server-Timing:
-      - gfet4t7; dur=1
+      - gfet4t7; dur=328
       Alt-Svc:
       - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
     body:
@@ -68,5 +66,5 @@ http_interactions:
            ],
            "status" : "OK"
         }
-  recorded_at: Mon, 03 Apr 2023 17:53:34 GMT
+  recorded_at: Tue, 04 Apr 2023 00:57:34 GMT
 recorded_with: VCR 6.1.0

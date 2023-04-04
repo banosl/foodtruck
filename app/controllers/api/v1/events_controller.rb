@@ -5,8 +5,11 @@ class Api::V1::EventsController < ApplicationController
   end
 
   def update
-    Event.update_with_data(params[:id], event_params, params[:location] ||= nil)
-    render json: EventSerializer.new(Event.find(params[:id]))
+    if Event.update_with_data(params[:id], event_params, params[:location] ||= nil)
+      render json: EventSerializer.new(Event.find(params[:id]))
+    else
+      render json: { error: "Location Invalid" }, status: 422
+    end
   end
 
   private
