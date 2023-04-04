@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://maps.googleapis.com/maps/api/place/findplacefromtext/json?fields=formatted_address,name,geometry&input=6631%20Beverly%20Blvd,%20Everett,%20WA%2098203&inputtype=textquery&key=<google_api_key>
+    uri: https://maps.googleapis.com/maps/api/place/findplacefromtext/json?fields=formatted_address,name,geometry&input=6631%20Beverly%20Blvd,%20Everett,%20WA%2098203,%20Everett&inputtype=textquery&key=<google_api_key>
     body:
       encoding: US-ASCII
       string: ''
@@ -21,9 +21,9 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Thu, 30 Mar 2023 20:40:12 GMT
+      - Tue, 04 Apr 2023 00:57:34 GMT
       Expires:
-      - Thu, 30 Mar 2023 20:45:12 GMT
+      - Tue, 04 Apr 2023 01:02:34 GMT
       Cache-Control:
       - public, max-age=300
       Server:
@@ -35,7 +35,7 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Server-Timing:
-      - gfet4t7; dur=274
+      - gfet4t7; dur=266
       Alt-Svc:
       - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
     body:
@@ -66,5 +66,74 @@ http_interactions:
            ],
            "status" : "OK"
         }
-  recorded_at: Thu, 30 Mar 2023 20:40:12 GMT
+  recorded_at: Tue, 04 Apr 2023 00:57:34 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/findplacefromtext/json?fields=formatted_address,name,geometry&input=6631%20Beverly%20Blvd,%20Everett,%20WA%2098203,%20Everett&inputtype=textquery&key=<google_api_key>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - scaffolding on HTTPServer2
+      Content-Length:
+      - '646'
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Date:
+      - Tue, 04 Apr 2023 00:57:34 GMT
+      Expires:
+      - Tue, 04 Apr 2023 01:02:34 GMT
+      Cache-Control:
+      - public, max-age=300
+      Content-Type:
+      - application/json; charset=UTF-8
+      Age:
+      - '0'
+      Server-Timing:
+      - gfet4t7; dur=0
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "candidates" : [
+              {
+                 "formatted_address" : "6631 Beverly Blvd, Everett, WA 98203, USA",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 47.9368756,
+                       "lng" : -122.2094365
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 47.93832377989272,
+                          "lng" : -122.2083798201073
+                       },
+                       "southwest" : {
+                          "lat" : 47.93562412010728,
+                          "lng" : -122.2110794798927
+                       }
+                    }
+                 },
+                 "name" : "6631 Beverly Blvd"
+              }
+           ],
+           "status" : "OK"
+        }
+  recorded_at: Tue, 04 Apr 2023 00:57:34 GMT
 recorded_with: VCR 6.1.0

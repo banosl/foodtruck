@@ -1,7 +1,11 @@
 class FoodtruckFacade
   def self.get_place_search_details(query)
     results = GoogleMapsPlacesService.find_place(query)
-    Place.new(results[:candidates].first)
+    unless results[:candidates] == []
+      Place.new(results[:candidates].first)
+    else
+      "No Results Found"
+    end
   end
 
   def self.foodtrucks_in_radius(place)
