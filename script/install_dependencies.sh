@@ -1,4 +1,4 @@
 #!/bin/bash
 bundle install
 rails db:{create,migrate}
-yum install httpd -y
+sudo dnf install httpd -y
