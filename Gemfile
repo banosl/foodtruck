@@ -1,7 +1,7 @@
 gem 'dotenv-rails', groups: %i[development test]
 source 'http://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
-
+#hi there
 ruby '3.0.5'
 
 gem 'rack-cors'
